@@ -1,0 +1,71 @@
+/* Skills.css */
+.skills-container {
+    margin: 20px 0;
+    background-image: url('https://elearningimages.adobe.com/files/2020/06/AdobeStock_244900189-scaled.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center; /* Center-align the content */
+    color: white; /* Set text color to white */
+}
+
+h1 {
+    font-size: 52px; /* Increase the font size */
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-item {
+    margin: 10px 0;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skill-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+    color: black; /* Set text color to black */
+    margin-right: 38px;
+}
+
+.skill-bar-container {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.skill-bar {
+    height: 100%;
+    background-color: #4caf50;
+    position: relative;
+}
+
+.bar-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.skill-percentage {
+    font-weight: bold;
+    margin-right: 58px; /* Add space between skill names and percentages */
+    text-align: center;
+    color: black; /* Set text color to black */
+}

@@ -1,0 +1,42 @@
+/* Contact.css */
+.contact-section {
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.VdBJVwZXp-38IIdA0N-BPAHaDa&pid=Api&P=0&h=180"); /* Replace with your background image URL */
+    background-size: cover;
+    padding: 50px;
+    color: #f4ecec; /* Text color */
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-details {
+    margin-right: 40px; /* Add some spacing between contact details and the secondary content */
+  }
+  
+  .large-font {
+    font-size: 24px; /* Set the font size for headings */
+  }
+  
+  .contact-secondary {
+    color: #f0ebeb; /* Text color for secondary content */
+    max-width: 500px; /* Adjust the maximum width as needed */
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+  }
+  
+  .contact-secondary p {
+    font-size: 16px; /* Set the font size for the secondary content */
+  }
+  
+  .contact-secondary a {
+    color: #edeff1; /* Adjust the link color */
+    text-decoration: none;
+  }
+  
+  .contact-secondary a:hover {
+    text-decoration: underline;
+  }
+  

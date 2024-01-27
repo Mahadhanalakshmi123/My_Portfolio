@@ -1,0 +1,47 @@
+/* Project.css */
+.projects-section {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.WF0gX-P7K0jQvJaxfxkWMwHaFP&pid=Api&P=0&h=180"); /* Add the background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #1a1919;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.project-box {
+  display: inline-block;
+  width: 22%; /* Adjust the width to your liking */
+  border: 5px solid #212020;
+  border-radius: 25px;
+  padding: 30px;
+  margin: 10px;
+  background-color: #c5c0c0; /* Adjust the background color */
+  text-align: left; /* Align content inside the box to the left */
+}
+
+.project-box img {
+  max-width: 100%;
+  height: 300px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.project-box h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.project-box p {
+  margin: 10px 0;
+}
+
+.project-box a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0078d4; /* Adjust the link color */
+}
+
+.project-box a:hover {
+  text-decoration: underline;
+}

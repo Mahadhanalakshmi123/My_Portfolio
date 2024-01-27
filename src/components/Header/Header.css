@@ -1,0 +1,191 @@
+/* Header.css */
+
+/* Styles for the header container */
+.header {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.031V1dSd67KV5-8gidK-mQHaEK&pid=Api&P=0&h=180"); /* Replace with your background image path */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    height: 100vh; /* Make the header occupy the entire viewport height */
+  }
+  
+  /* Styles for the back lighting element (animated) */
+  .back-lighting {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(19, 18, 18, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
+    animation: back-lighting-animation 10s infinite alternate; /* Apply the back lighting animation */
+  }
+  
+  /* Animation keyframes for the back lighting effect */
+  @keyframes back-lighting-animation {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+      transform: scale(1.2);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    }
+  }
+  
+  /* Styles for the header content container */
+  .header-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make the container take up the full height of the header */
+  }
+  
+  /* Styles for the header content */
+  .header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Rest of your styles... */
+  
+  
+  /* Styles for the header info section */
+  .header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space items evenly across the header */
+  }
+  
+  /* Styles for the profile photo */
+  .header-profile-photo {
+    width: 370px; /* Adjust the size as needed */
+    height: 400px; /* Adjust the size as needed */
+    border-radius: 50%;
+    /* Make it circular */
+    filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.3)); /* Add a drop shadow to the photo */
+    position: relative; /* For absolute positioning of the light element */
+    margin-top: 100px;
+  }
+  
+  /* Styles for the light element (animated) */
+  .light {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    border-radius: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    animation: light-animation 3s infinite alternate; /* Apply the light animation */
+  }
+  
+  /* Animation keyframes for the light effect */
+  @keyframes light-animation {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(1.2);
+      opacity: 0;
+    }
+  }
+  
+  /* Styles for the header text section */
+  .header-text {
+    text-align: left; /* Align text to the left of the photo */
+    flex-grow: 1; /* Allow the text to grow and take up remaining space */
+    margin-left: 1px; /* Add some spacing between text and photo */
+    margin-right: 200px;
+    margin-top: 100px;
+  }
+  
+  /* Other styles as needed */
+  .header-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .header-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .header-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .header-contact {
+    font-size: 14px;
+  }
+
+  /* Add these styles to your existing CSS */
+
+/* Styles for the header-buttons wrapper */
+.header-buttons {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    display: flex;
+    gap: 20px;
+    
+  }
+ /* Adjust button styles for increased size, bold font, and hover effect */
+.header-link {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+
+  /* Add hover effect */
+  &:hover {
+    background-color: rgba(192, 187, 187, 0.989); /* Change the background color on hover */
+  }
+}
+  /* Rest of your existing styles... */
+  
+ /* Footer Styles */
+.footer-content {
+  position: absolute;
+  bottom: 50px; /* Add a small margin from the bottom */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  color: #fff;
+}
+
+.social-link img {
+  width: 50px;
+  height: auto;
+}
+
+.social-link p {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+
+
+
+
+
